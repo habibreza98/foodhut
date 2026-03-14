@@ -1,5 +1,3 @@
-import expimage from '../../public/image.png'
-import expimage1 from '../../public/image1.png'
 import explore from '../../public/explore.png'
 import explore2 from '../../public/explore2.png'
 import explore3 from '../../public/explore3.png'
@@ -59,7 +57,7 @@ function RestaurantHome1() {
             
             {/* Left: Chef Circular Image Group */}
             <div className='relative lg:col-span-1'>
-                 <img src={expimage} alt="Chef Story" className="w-full max-w-sm rounded-full aspect-square object-cover z-10 shadow-2xl border-4 border-white"/>
+                 <img src={explore} alt="Chef Story" className="w-full max-w-sm rounded-full aspect-square object-cover z-10 shadow-2xl border-4 border-white"/>
                  {/* Decorative Sketch Icon overlay */}
                  <div className='absolute -bottom-10 -left-10 w-24 h-24 opacity-20 pointer-events-none grayscale'><img src="https://cdn-icons-png.flaticon.com/512/2314/2314644.png" alt="sketch" /></div>
             </div>
@@ -72,7 +70,7 @@ function RestaurantHome1() {
                 
                 {/* Contact Card */}
                 <div className='inline-flex items-center space-x-4 bg-gray-50 p-4 rounded-full border border-gray-100 shadow-inner'>
-                    <img src={expimage1} alt="Contact Chef" className='w-14 h-14 rounded-full'/>
+                    <img src={explore2} alt="Contact Chef" className='w-14 h-14 rounded-full'/>
                     <div className='text-left'>
                         <p className='text-sm text-gray-500'>Michael V. Christensen</p>
                         <p className='text-base font-bold text-red-500'>+44 1238 123 587</p>
